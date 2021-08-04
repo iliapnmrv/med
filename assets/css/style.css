@@ -1,0 +1,339 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 0.7px;
+    margin: 0px;
+}
+
+table {
+    table-layout: fixed;
+    /* width: 150px; */
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px 6px;
+    font-size: 14px;
+}
+
+#positions {
+    width: 700px;
+    margin: 0px auto;
+}
+
+#export {
+    cursor: pointer;
+}
+
+tr {
+    text-align: center;
+}
+
+section {
+    padding: 30px 0px;
+}
+
+.wrapper {
+    width: 1250px;
+    margin: 0px auto;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+.table-header {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+i {
+    font-size: 18px;
+    color: rgb(102, 102, 102);
+}
+
+.cell.attention {
+    color: rgb(175, 0, 0);
+}
+
+.none {
+    display: none !important;
+}
+
+.smena-none {
+    display: none;
+}
+
+.filter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 15px 0px;
+}
+
+.filter-item {
+    margin: 0px 20px 0px 0px;
+}
+
+.filter-date {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.date-filter span {
+    margin: 0px 10px;
+}
+
+.filter-option {
+    display: flex;
+    align-items: center;
+}
+
+.smena-filter input {
+    margin: 0px 20px 0px 0px;
+}
+
+.smena-filter .filter-option label {
+    margin: 0px 4px 0px 10px;
+}
+
+.submit-btn {
+    background-color: #5959d6;
+    color: white;
+    padding: 4px 14px;
+    margin: 5px 0px 0px;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.submit-btn:hover {
+    background-color: rgb(33 132 181);
+}
+
+.submit-btn:focus {
+    background-color: rgb(67, 161, 192);
+}
+
+.submit-btn:disabled {
+    background-color: grey;
+}
+
+#user-message {
+    background-color: #b7f9b7;
+    padding: 10px 15px;
+    text-align: center;
+    margin: 10px 0px;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+.search input {
+    padding: 3px 10px;
+    font-size: 18px;
+    border: 1px solid #cecece;
+    border-radius: 2px;
+    width: 300px;
+}
+
+.search input::placeholder {
+    color: rgb(173, 173, 173);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 28px;
+    z-index: 999;
+}
+
+
+/* Dropdown Button */
+
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 6px 26px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+
+/* Dropdown button on hover & focus */
+
+.dropbtn:hover,
+.dropbtn:focus {
+    background-color: #2980B9;
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+
+.show {
+    display: block !important;
+}
+
+.search {
+    margin: 10px 0px 0px;
+}
+
+.filters {
+    background-color: #f7f7f7;
+    border-top: 1px solid #dadada;
+    padding: 0px 10px;
+}
+
+.filter__footer_wrapper {
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.filter.footer input {
+    display: block;
+}
+
+.exception_checkbox {
+    display: flex;
+    flex-direction: row;
+}
+
+.update {
+    background-color: #e45353;
+    float: right;
+}
+
+.vredWrap {
+    width: 250px;
+    display: block;
+}
+
+.vred__td {
+    position: relative;
+    width: 350px;
+    padding: 5px 10px 5px 6px;
+}
+
+.vred-edit {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    cursor: pointer;
+}
+
+
+/* Select2 */
+
+.select2-container--default {
+    width: 350px !important;
+    font-size: 14px;
+}
+
+.select2-dropdown {
+    width: 767px !important;
+    margin: 0px 0px 0px -339px !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__clear {
+    font-size: 22px;
+}
+
+
+/* tabs */
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.tabs-container {}
+
+.tabs {
+    display: flex;
+}
+
+.tabs li:not(:last-child) {
+    margin-right: 7px;
+}
+
+.tabs li a {
+    display: block;
+    position: relative;
+    top: 4px;
+    padding: 10px 25px;
+    border-radius: 2px 2px 0 0;
+    background: rgb(82 168 236 / 90%);
+    opacity: 0.7;
+    transition: all 0.1s ease-in-out;
+}
+
+.tabs li.active a,
+.tabs li a:hover {
+    opacity: 1;
+    top: 0;
+}
+
+.tabs-content {
+    position: relative;
+    z-index: 2;
+    /* padding: 10px; */
+    border-radius: 0 4px 4px 4px;
+    background: #f3f3f34f;
+}
+
+.tabs-panel {
+    display: none;
+}
+
+.tabs-panel.active {
+    display: block;
+}
+
+.tabs-panel p+div {
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 600px) {
+    .tabs {
+        flex-direction: column;
+    }
+    .tabs li {
+        width: 100%;
+    }
+    .tabs li:not(:last-child) {
+        margin-right: 0;
+    }
+    .tabs li a {
+        border-radius: 0;
+        opacity: 1;
+        top: 0;
+    }
+    .tabs li.active a::before {
+        content: "•";
+        padding-right: 5px;
+    }
+    .tabs-content {
+        border-radius: 0;
+    }
+}
