@@ -1,7 +1,7 @@
 <?php
-$servername = "";
-$database = "";
-$username = "";
+$servername = "localhost";
+$database = "med";
+$username = "root";
 $password = "";
 // Создаем соединение
 $db = mysqli_connect($servername, $username, $password, $database);
