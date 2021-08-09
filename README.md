@@ -34,7 +34,7 @@ The things you need:
 
 Read the following steps carefully to avoid unexpected errors:
 
-1. ### Download
+### 1. Download
 
 Download this github repository to where you want it to be, usually it is htdocs (xampp) or localhost (openserver) folders
 using:
@@ -45,12 +45,12 @@ git clone https://github.com/iliapnmrv/med.git
 
 You also can download the project using the github archive
 
-2. ### Create database
+### 2. Create database
 
 In your server's database management system you must choose `import database`. Then select `med.sql` file and simply click next, everything will be created automatically.
 You can always edit the table later, however this can lead to errors
 
-3. ### Home stretch
+### 3. Home stretch
 
 - Inside `db.php` file change your `servername`, `username` and `password` fields. And `database` if you have changed your database name
 - If you have a problem on the first start, simply reload the page, PHP files `database/db-check.php` will create a few new database records
