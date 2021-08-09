@@ -1,7 +1,7 @@
 # med
 
 Employees medical examination
-![Demo](https://github.com/iliapnmrv/med/assets/static/images/demo.jpg)
+![Demo](https://github.com/iliapnmrv/med/blob/main/assets/static/images/demo.jpg)
 
 ## Description
 
