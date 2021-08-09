@@ -1,6 +1,7 @@
 # med
 
 Employees medical examination
+![Demo](https://github.com/iliapnmrv/med/assets/static/images/demo.jpg)
 
 ## Description
 
@@ -55,3 +56,7 @@ You can always edit the table later, however this can lead to errors
 - Inside `db.php` file change your `servername`, `username` and `password` fields. And `database` if you have changed your database name
 - If you have a problem on the first start, simply reload the page, PHP files `database/db-check.php` will create a few new database records
 - Enjoy this project and to send employees to the medical examination with less effort
+
+## Contact me if you have any issues
+
+[iliapnmrvv@gmail.com](mailto:iliapnmrvv@gmail.com)
